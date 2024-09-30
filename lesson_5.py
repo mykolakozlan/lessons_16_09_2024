@@ -125,7 +125,7 @@
 # for index, letter in enumerate(value_str):
 #     print(index, letter)
 
-value_str = "hellool"
+# value_str = "hellool"
 
 # some_method = value_str.find("loo")
 # some_method_2 = value_str.rfind("loo")
@@ -136,6 +136,76 @@ value_str = "hellool"
 #     print(True)
 # value_str.endswith()
 
+# count()
+
+# value_str = "hellool"
+# print(value_str.count("l"))
+
+# split/join
+
+
+
+# some_file = "C/My Computer/SomeFolder/12by345_6.png"
+
+# split_method = some_file.split("/", 2)
+# split_method = some_file.split()
+# split_method = some_file.rsplit(".", 1)
+# print(split_method)
+#
+# split_method[1] = "jpeg"
+# print(split_method)
+#
+# join_method = ".".join(split_method)
+#
+# print(join_method)
+
+
+
+# strip()
+
+
+# first_name = "______Nick_________"
+# value_strip = first_name.strip("_")
+# value_rstrip = first_name.rstrip("_")
+# value_lstrip = first_name.lstrip("_")
+#
+# print(first_name)
+# print(value_strip)
+# print(value_rstrip)
+# print(value_lstrip)
+
+
+# find()
+# index()
+
+# first_name = "______Nick_________"
+# print(first_name.find("T"))
+# print(first_name.index("T"))
+
+
+
+############ ASCII ######################
+
+
+# value_str = "hello"
+# value_str_2 = "hеllo"
+
+
+# value_letter = "А"
+# print(ord(value_letter))
+# print(chr(104))
+
+# alphabet = ""
+#
+# for letter in range(ord("a"), ord("z") + 1):
+#     # print(chr(letter), letter)
+#     alphabet += chr(letter)
+#
+# print(alphabet)
+
+# import this
+#
+# print(this)
 
 
 
