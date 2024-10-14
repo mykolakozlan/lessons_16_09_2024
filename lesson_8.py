@@ -293,3 +293,16 @@
 #
 # print(adding_numbers(8, 9))
 
+
+
+# def my_func():
+#     return 10
+#
+# # print(my_func())
+#
+#
+# if __name__ == "__main__":
+#     print(my_func.__doc__)
+#     print(my_func.__name__)
+#     print(my_func.__module__)
+
