@@ -361,32 +361,32 @@
 #
 #
 #
-# # from datetime import date
-# #
-# # class Person:
-# #
-# #     # Дозволяє обчислити дані, і повернути новий екземпляр класу, з цими даними
-# #     @classmethod
-# #     def from_birth_year(cls, name, year):
-# #         return Person(name, date.today().year - year)
-# #
-# #     def __init__(self, name, age):
-# #         self.name = name
-# #         self.age = age
-# #
-# #     # Метод, який не пов'язаний зі змінними ні цього класу, ні його екземплярів
-# #     @staticmethod
-# #     def is_adult(age):
-# #         return age > 18
-# #     # # Метод, який не пов'язаний зі змінними ні цього класу, ні його екземплярів
-# #     #
-# #     # def is_adult(self):
-# #     #     return self.age > 18
-# #
-# #
-# # person1 = Person('Michael', 21)
-# # person2 = Person.from_birth_year('John', 1996)
-# # person3 = person2.from_birth_year('mayank3', 2000)
+# from datetime import date
+#
+# class Person:
+#
+#     # Дозволяє обчислити дані, і повернути новий екземпляр класу, з цими даними
+#     @classmethod
+#     def from_birth_year(cls, name, year):
+#         return Person(name, date.today().year - year)
+#
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+#
+#     # Метод, який не пов'язаний зі змінними ні цього класу, ні його екземплярів
+#     @staticmethod
+#     def is_adult(age):
+#         return age > 18
+#     # # Метод, який не пов'язаний зі змінними ні цього класу, ні його екземплярів
+#     #
+#     # def is_adult(self):
+#     #     return self.age > 18
+#
+#
+# person1 = Person('Michael', 21)
+# person2 = Person.from_birth_year('John', 1996)
+# person3 = person2.from_birth_year('mayank3', 2000)
 # #
 # # print(person1.age)
 # # print(person1.is_adult(person1.age))
