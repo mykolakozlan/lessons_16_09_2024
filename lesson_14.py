@@ -396,6 +396,9 @@ import numbers
 # my_list_3 = my_list + my_list_2
 # print(my_list_3)
 
+# import module
+
+
 
 
 
@@ -816,6 +819,8 @@ import numbers
 
 
 # from module import add_one
+
+# from module.lesson_10 import add_one
 
 # import module
 #
